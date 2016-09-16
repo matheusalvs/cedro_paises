@@ -30,7 +30,7 @@
             </objects>
             <point key="canvasLocation" x="-540.5" y="-547.5"/>
         </scene>
-        <!--Countries View Controller-->
+        <!--Todos os Países-->
         <scene sceneID="ly7-8t-gZV">
             <objects>
                 <viewController id="IZV-5q-IzK" customClass="CountriesViewController" customModule="Cedro" customModuleProvider="target" sceneMemberID="viewController">
@@ -109,7 +109,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Oh8-uP-Ysg" secondAttribute="trailing" constant="-20" id="Xic-ez-w8U"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="DrE-7h-DEw"/>
+                    <tabBarItem key="tabBarItem" title="Todos os Países" image="internet.png" id="DrE-7h-DEw"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="countriesCollectionView" destination="l1T-Ch-MpS" id="66f-Jo-47c"/>
@@ -345,7 +345,7 @@
             </objects>
             <point key="canvasLocation" x="259.5" y="215.5"/>
         </scene>
-        <!--Visited Countries View Controller-->
+        <!--Países Visitados-->
         <scene sceneID="F6W-mX-wqh">
             <objects>
                 <viewController id="h4f-82-R6V" customClass="VisitedCountriesViewController" customModule="Cedro" customModuleProvider="target" sceneMemberID="viewController">
@@ -443,7 +443,7 @@
                             <constraint firstItem="2J4-Zg-Aga" firstAttribute="top" secondItem="kEF-ug-fka" secondAttribute="bottom" id="r2m-zO-b5B"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="recents" id="OWi-cC-VOn"/>
+                    <tabBarItem key="tabBarItem" title="Países Visitados" image="location.png" id="OWi-cC-VOn"/>
                     <connections>
                         <outlet property="visitedCountriesTableView" destination="kEF-ug-fka" id="9SV-2B-ItQ"/>
                     </connections>
@@ -539,7 +539,7 @@
             </objects>
             <point key="canvasLocation" x="-1334.5" y="-547.5"/>
         </scene>
-        <!--Profile View Controller-->
+        <!--Perfil-->
         <scene sceneID="z4T-1R-wQe">
             <objects>
                 <viewController id="nIr-zd-zEd" customClass="ProfileViewController" customModule="Cedro" customModuleProvider="target" sceneMemberID="viewController">
@@ -588,7 +588,7 @@
                             <constraint firstItem="CXY-Jb-d8u" firstAttribute="top" secondItem="hMI-C9-Bi1" secondAttribute="bottom" constant="23" id="zfB-qe-IDC"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="wzt-OX-fH2"/>
+                    <tabBarItem key="tabBarItem" title="Perfil" image="profile.png" id="wzt-OX-fH2"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="profileImageView" destination="hMI-C9-Bi1" id="LzX-no-sPv"/>
@@ -600,9 +600,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="internet.png" width="32" height="32"/>
+        <image name="location.png" width="32" height="32"/>
         <image name="no_photo.gif" width="225" height="225"/>
+        <image name="profile.png" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0d7-ls-NU5"/>
+        <segue reference="4sv-ts-Crf"/>
     </inferredMetricsTieBreakers>
 </document>
