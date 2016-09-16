@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CDF42832A29606F4D527B81 /* Pods_Cedro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2010A60168225AA004A319A /* Pods_Cedro.framework */; };
+		9F2004DF1D8326FC00C014D9 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2004DE1D8326FC00C014D9 /* Country.swift */; };
+		9F2004E11D843F0900C014D9 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2004E01D843F0900C014D9 /* Config.swift */; };
+		9F2004E31D8446C600C014D9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2004E21D8446C600C014D9 /* ProfileViewController.swift */; };
+		9F2004E51D8446DD00C014D9 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2004E41D8446DD00C014D9 /* CountriesViewController.swift */; };
+		9F2004E71D8446F800C014D9 /* VisitedCountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2004E61D8446F800C014D9 /* VisitedCountriesViewController.swift */; };
+		9F2004EB1D84683D00C014D9 /* CountryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2004EA1D84683D00C014D9 /* CountryCollectionViewCell.swift */; };
+		9F2004EF1D8471A200C014D9 /* RestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2004EE1D8471A200C014D9 /* RestApi.swift */; };
+		9F54BCF21D86F75D00757CCA /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54BCF11D86F75D00757CCA /* CountryTableViewCell.swift */; };
+		9FA88CCB1D8B79C100BC1822 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA88CCA1D8B79C100BC1822 /* Utils.swift */; };
+		9FC4B72B1D83011E00BAEBDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4B72A1D83011E00BAEBDC /* AppDelegate.swift */; };
+		9FC4B7301D83011E00BAEBDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC4B72E1D83011E00BAEBDC /* Main.storyboard */; };
+		9FC4B7321D83011E00BAEBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC4B7311D83011E00BAEBDC /* Assets.xcassets */; };
+		9FC4B7351D83011E00BAEBDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC4B7331D83011E00BAEBDC /* LaunchScreen.storyboard */; };
+		9FF05CEB1D870EE300D8E750 /* no_photo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FF05CEA1D870EE300D8E750 /* no_photo.gif */; };
+		9FF05CED1D8711F200D8E750 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF05CEC1D8711F200D8E750 /* CountryViewController.swift */; };
+		9FF05CF11D87627C00D8E750 /* CountryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF05CF01D87627C00D8E750 /* CountryTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F2004DE1D8326FC00C014D9 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		9F2004E01D843F0900C014D9 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		9F2004E21D8446C600C014D9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9F2004E41D8446DD00C014D9 /* CountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		9F2004E61D8446F800C014D9 /* VisitedCountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitedCountriesViewController.swift; sourceTree = "<group>"; };
+		9F2004EA1D84683D00C014D9 /* CountryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F2004EE1D8471A200C014D9 /* RestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApi.swift; sourceTree = "<group>"; };
+		9F54BCF11D86F75D00757CCA /* CountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		9FA88CCA1D8B79C100BC1822 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9FC4B7271D83011D00BAEBDC /* Cedro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cedro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC4B72A1D83011E00BAEBDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FC4B72F1D83011E00BAEBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FC4B7311D83011E00BAEBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FC4B7341D83011E00BAEBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FC4B7361D83011E00BAEBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF05CEA1D870EE300D8E750 /* no_photo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = no_photo.gif; path = ../../../Desktop/no_photo.gif; sourceTree = "<group>"; };
+		9FF05CEC1D8711F200D8E750 /* CountryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		9FF05CF01D87627C00D8E750 /* CountryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewController.swift; sourceTree = "<group>"; };
+		A40C8ABEFC8F597EFC719492 /* Pods-Cedro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cedro.release.xcconfig"; path = "Cedro/Pods/Target Support Files/Pods-Cedro/Pods-Cedro.release.xcconfig"; sourceTree = "<group>"; };
+		C2010A60168225AA004A319A /* Pods_Cedro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cedro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85E04C3D281EEB11C9E8167 /* Pods-Cedro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cedro.debug.xcconfig"; path = "Cedro/Pods/Target Support Files/Pods-Cedro/Pods-Cedro.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FC4B7241D83011D00BAEBDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDF42832A29606F4D527B81 /* Pods_Cedro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F498218D2BABC3B669CAB24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D85E04C3D281EEB11C9E8167 /* Pods-Cedro.debug.xcconfig */,
+				A40C8ABEFC8F597EFC719492 /* Pods-Cedro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5AD3D7E4B28794087F695133 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2010A60168225AA004A319A /* Pods_Cedro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F54BCF01D86F3BF00757CCA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FF05CEF1D87624C00D8E750 /* Containers */,
+				9FF05CEE1D8729BD00D8E750 /* Cells */,
+				9F2004E21D8446C600C014D9 /* ProfileViewController.swift */,
+				9F2004E41D8446DD00C014D9 /* CountriesViewController.swift */,
+				9F2004E61D8446F800C014D9 /* VisitedCountriesViewController.swift */,
+				9FF05CEC1D8711F200D8E750 /* CountryViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9FA88CC81D8AF58900BC1822 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9FF05CEA1D870EE300D8E750 /* no_photo.gif */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9FA88CC91D8AF59100BC1822 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9FA88CCA1D8B79C100BC1822 /* Utils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		9FC4B71E1D83011D00BAEBDC = {
+			isa = PBXGroup;
+			children = (
+				9FC4B7291D83011D00BAEBDC /* Cedro */,
+				9FC4B7281D83011D00BAEBDC /* Products */,
+				3F498218D2BABC3B669CAB24 /* Pods */,
+				5AD3D7E4B28794087F695133 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FC4B7281D83011D00BAEBDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC4B7271D83011D00BAEBDC /* Cedro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC4B7291D83011D00BAEBDC /* Cedro */ = {
+			isa = PBXGroup;
+			children = (
+				9FA88CC91D8AF59100BC1822 /* Utils */,
+				9FA88CC81D8AF58900BC1822 /* Assets */,
+				9F54BCF01D86F3BF00757CCA /* ViewControllers */,
+				9FC4B73C1D8302F100BAEBDC /* Model */,
+				9FC4B72A1D83011E00BAEBDC /* AppDelegate.swift */,
+				9FC4B72E1D83011E00BAEBDC /* Main.storyboard */,
+				9FC4B7311D83011E00BAEBDC /* Assets.xcassets */,
+				9FC4B7331D83011E00BAEBDC /* LaunchScreen.storyboard */,
+				9FC4B7361D83011E00BAEBDC /* Info.plist */,
+				9F2004E01D843F0900C014D9 /* Config.swift */,
+				9F2004EE1D8471A200C014D9 /* RestApi.swift */,
+			);
+			path = Cedro;
+			sourceTree = "<group>";
+		};
+		9FC4B73C1D8302F100BAEBDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F2004DE1D8326FC00C014D9 /* Country.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9FF05CEE1D8729BD00D8E750 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9F2004EA1D84683D00C014D9 /* CountryCollectionViewCell.swift */,
+				9F54BCF11D86F75D00757CCA /* CountryTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		9FF05CEF1D87624C00D8E750 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				9FF05CF01D87627C00D8E750 /* CountryTableViewController.swift */,
+			);
+			name = Containers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FC4B7261D83011D00BAEBDC /* Cedro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC4B7391D83011E00BAEBDC /* Build configuration list for PBXNativeTarget "Cedro" */;
+			buildPhases = (
+				FA598E77DF71CA021D19F185 /* [CP] Check Pods Manifest.lock */,
+				9FC4B7231D83011D00BAEBDC /* Sources */,
+				9FC4B7241D83011D00BAEBDC /* Frameworks */,
+				9FC4B7251D83011D00BAEBDC /* Resources */,
+				317BCC5AEF437B01FE1658CE /* [CP] Embed Pods Frameworks */,
+				6E531B456D0199A179ADE5F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cedro;
+			productName = Cedro;
+			productReference = 9FC4B7271D83011D00BAEBDC /* Cedro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FC4B71F1D83011D00BAEBDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Zinsoft;
+				TargetAttributes = {
+					9FC4B7261D83011D00BAEBDC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZK7H8JW5C6;
+					};
+				};
+			};
+			buildConfigurationList = 9FC4B7221D83011D00BAEBDC /* Build configuration list for PBXProject "Cedro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FC4B71E1D83011D00BAEBDC;
+			productRefGroup = 9FC4B7281D83011D00BAEBDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FC4B7261D83011D00BAEBDC /* Cedro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FC4B7251D83011D00BAEBDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC4B7351D83011E00BAEBDC /* LaunchScreen.storyboard in Resources */,
+				9FC4B7321D83011E00BAEBDC /* Assets.xcassets in Resources */,
+				9FF05CEB1D870EE300D8E750 /* no_photo.gif in Resources */,
+				9FC4B7301D83011E00BAEBDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		317BCC5AEF437B01FE1658CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Cedro/Pods/Target Support Files/Pods-Cedro/Pods-Cedro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E531B456D0199A179ADE5F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Cedro/Pods/Target Support Files/Pods-Cedro/Pods-Cedro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA598E77DF71CA021D19F185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FC4B7231D83011D00BAEBDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2004DF1D8326FC00C014D9 /* Country.swift in Sources */,
+				9F2004E11D843F0900C014D9 /* Config.swift in Sources */,
+				9FF05CF11D87627C00D8E750 /* CountryTableViewController.swift in Sources */,
+				9FF05CED1D8711F200D8E750 /* CountryViewController.swift in Sources */,
+				9F2004E71D8446F800C014D9 /* VisitedCountriesViewController.swift in Sources */,
+				9F2004E31D8446C600C014D9 /* ProfileViewController.swift in Sources */,
+				9F54BCF21D86F75D00757CCA /* CountryTableViewCell.swift in Sources */,
+				9F2004EB1D84683D00C014D9 /* CountryCollectionViewCell.swift in Sources */,
+				9FC4B72B1D83011E00BAEBDC /* AppDelegate.swift in Sources */,
+				9F2004E51D8446DD00C014D9 /* CountriesViewController.swift in Sources */,
+				9F2004EF1D8471A200C014D9 /* RestApi.swift in Sources */,
+				9FA88CCB1D8B79C100BC1822 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FC4B72E1D83011E00BAEBDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC4B72F1D83011E00BAEBDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FC4B7331D83011E00BAEBDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC4B7341D83011E00BAEBDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FC4B7371D83011E00BAEBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FC4B7381D83011E00BAEBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FC4B73A1D83011E00BAEBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85E04C3D281EEB11C9E8167 /* Pods-Cedro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Cedro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zinsoft.Cedro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FC4B73B1D83011E00BAEBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40C8ABEFC8F597EFC719492 /* Pods-Cedro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Cedro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zinsoft.Cedro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FC4B7221D83011D00BAEBDC /* Build configuration list for PBXProject "Cedro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC4B7371D83011E00BAEBDC /* Debug */,
+				9FC4B7381D83011E00BAEBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC4B7391D83011E00BAEBDC /* Build configuration list for PBXNativeTarget "Cedro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC4B73A1D83011E00BAEBDC /* Debug */,
+				9FC4B73B1D83011E00BAEBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FC4B71F1D83011D00BAEBDC /* Project object */;
+}

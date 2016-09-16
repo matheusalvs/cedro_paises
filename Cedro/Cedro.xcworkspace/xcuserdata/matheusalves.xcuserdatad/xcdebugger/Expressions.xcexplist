@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "VisitedCountriesViewController.viewDidLoad() -&gt; ():VisitedCountriesViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CountryTableViewController.onChangeVisitedFlag(AnyObject) -&gt; ():CountryTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sender.on">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CountryViewController.viewDidLoad() -&gt; ():CountryViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "VisitedCountriesViewController.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:VisitedCountriesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "visitedCountries[indexPath.row].flag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CountryTableViewController.viewDidLoad() -&gt; ():CountryTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(info[&quot;shortName&quot;])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static CountryTableViewController.save() -&gt; ():CountryTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.info">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,10 @@
+platform :ios, ‘9.0’
+use_frameworks!
+
+project '../Cedro.xcodeproj' 
+target ‘Cedro’ do
+pod 'RealmSwift', '~> 0.98'
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'SwiftyJSON', '>= 2.1.3'
+end
